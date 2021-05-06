@@ -369,13 +369,13 @@ F1.T1	F2.T2
 Please write a query to inner join these two tables and write down the result of this query.
 */
 -- RESULT SET: F1.T1  F2.T2
---				2      2
---			    3      3
+--		2      2
+--		3      3
 
 /*
  29. Based on above two table, Please write a query to left outer join these two tables and write down the result of this query.
 */
 -- RESULT SET: F1.T1  F2.T2
---				1      Null
---			    2      2
---			    3      3
+--		1      Null
+--	        2      2
+--	        3      3
