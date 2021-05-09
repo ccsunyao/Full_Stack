@@ -1,16 +1,19 @@
 /*Answer following questions
 1.	What is a result set?
-	An SQL result set is a set of rows from a database
+	A result set is a set of records, including not only the data itself, but also metadata like column names, types and sizes.
 
 2.	What is the difference between Union and Union All?
-	(1) UNION will only keeps unique records; UNION ALL will keeps all records, including duplicates
-	(2) UNION ALL has a better performance than UNION
+	(1) Union will automatically clean up duplications, while Union All will not.
+	(2) Union will sort the result by the order of first column by default, while Union will remain the original sequence by default. 
 
 3.	What are the other Set Operators SQL Server has?
-	UNION, UNION ALL, INTERSECT, EXCEPT
+	UNION, UNION ALL, INTERSECT, EXCEPT, MINUS
 
 4.	What is the difference between Union and Join?
-	joins combine data into new columns; Unions combine data into new rows.
+	Join combine data into new columns; Union combine data into new rows.
+	
+	Union is used to combine multiple queries into a single query with all the records of queries and the same column forms. (Vertically)
+	Join is used to combine data from multiple queries with the column names of all queries. The number of rows depends on the kinds of joins and the queries. (Horizontally)
 
 5.	What is the difference between INNER JOIN and FULL JOIN?
 	Inner join returns only the matching rows between both the tables, non matching rows are eliminated;
@@ -26,8 +29,8 @@
 8.	What is the difference between WHERE clause and HAVING clause?
 	(1) WHERE clause is processed before GROUP BY clause while HAVING clause is executed after groups are created.
 	(2) If used in GROUP BY, You can refer any column from a table in WHERE clause but you can only use columns which are not grouped or aggregated in HAVING.
-    (3) You can use an aggregate function to filter rows with HAVING clause isstead of WHERE clause
-    (4) WHERE will use Index and HAVING will not, so WHERE has a better performance
+    	(3) You can use an aggregate function to filter rows with HAVING clause isstead of WHERE clause
+    	(4) WHERE will use Index and HAVING will not, so WHERE has a better performance
 
 9.	Can there be multiple group by columns?
 	yes
@@ -59,6 +62,7 @@ ProductSubcategoryID CountedProducts
 USE AdventureWorks2017
 SELECT ProductSubcategoryID, COUNT(1) AS CountedProducts
 FROM Production.Product
+WHERE ProductSubcategoryID IS NOT NULL
 GROUP BY ProductSubcategoryID;
 GO
 
@@ -77,6 +81,7 @@ GO
 USE AdventureWorks2017
 SELECT SUM(Quantity)
 FROM  Production.ProductInventory
+GROUP BY ProductID
 GO
 
 /*
@@ -85,9 +90,11 @@ GO
 -----------        ----------
 */
 USE AdventureWorks2017
-SELECT SUM(Quantity)
+SELECT ProductID, SUM(Quantity)
 FROM  Production.ProductInventory
-WHERE LocationID = 40 AND  Quantity < 100
+WHERE LocationID = 40 
+GROUP BY ProductID
+HAVING SUM(Quantity) < 100
 GO
 
 /*
@@ -96,19 +103,21 @@ Shelf      ProductID    TheSum
 ---------- -----------        -----------
 */
 USE AdventureWorks2017 
-SELECT Shelf, SUM(Quantity) AS Qty
+SELECT Shelf, ProductID,  SUM(Quantity) AS Qty
 FROM  Production.ProductInventory
-WHERE LocationID = 40 AND  Quantity < 100
-GROUP BY Shelf
+WHERE LocationID = 40
+GROUP BY ProductID, Shelf
+HAVING SUM(Quantity) < 100
 GO
 
 /*
 8.	Write the query to list the average quantity for products where column LocationID has the value of 10 from the table Production.ProductInventory table.
 */
 USE AdventureWorks2017 
-SELECT AVG(Quantity) 
+SELECT ProductID, AVG(Quantity) 
 FROM  Production.ProductInventory
 WHERE LocationID = 10
+GROUP BY ProductID
 GO
 
 /*
@@ -128,10 +137,10 @@ ProductID   Shelf      TheAvg
 ----------- ---------- -----------
 */
 USE AdventureWorks2017 
-SELECT AVG(Quantity) AS Avg_Qty
+SELECT ProductID, Shelf, AVG(Quantity) AS Avg_Qty
 FROM  Production.ProductInventory
 WHERE Shelf <> 'N/A'
-GROUP BY Shelf
+GROUP BY ProductID, Shelf
 GO
 
 /*
@@ -141,7 +150,7 @@ Color           	Class 	TheCount   	 AvgPrice
 Joins:
 */
 USE AdventureWorks2017 
-SELECT Color, Class, AVG(ListPrice) AS Avg_LP
+SELECT Color, Class, COUNT(1) AS TheCount, AVG(ListPrice) AS Avg_LP
 FROM  Production.Product
 WHERE Color IS NOT NULL AND  Class IS NOT NULL
 GROUP BY Color, Class
@@ -154,7 +163,7 @@ Country                        Province
 ---------                          ----------------------
 */
 USE AdventureWorks2017 
-SELECT c.Name AS Country, s.Name Province
+SELECT c.Name AS Country, s.Name AS Province
 FROM  person. CountryRegion AS c
 INNER JOIN person. StateProvince AS s
 ON c.CountryRegionCode = s.CountryRegionCode
@@ -194,6 +203,7 @@ SELECT TOP 5 ShipPostalCode AS [Zip Code], SUM(Quantity) AS qty
 FROM Orders AS o
 INNER JOIN [Order Details] AS od
 ON o.OrderID = od.OrderID
+WHERE o.ShipPostalCode IS NOT NULL
 GROUP BY o.ShipPostalCode
 ORDER BY qty DESC
 GO
@@ -295,7 +305,6 @@ INNER JOIN OrderS o
 ON o.OrderID = od.OrderID
 INNER JOIN Shippers sh
 ON o.ShipVia = sh.ShipperID
-GROUP BY sp.CompanyName, sh.CompanyName
 ORDER  by sp.CompanyName
 GO
 
@@ -309,6 +318,8 @@ INNER JOIN [Order Details] od
 ON o.OrderID = od.OrderID
 INNER JOIN Products p
 ON od.ProductID = p.ProductID
+GROUP BY o.OrderDate, p.ProductName
+ORDER BY o.OrderDate
 GO
 
 /*
