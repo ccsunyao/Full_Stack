@@ -1,0 +1,16 @@
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.exe
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.deps.json
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.runtimeconfig.json
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.runtimeconfig.dev.json
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.dll
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\ref\Exercise5.dll
+C:\Users\yao\source\repos\Lab2\Exercise5\bin\Debug\net5.0\Exercise5.pdb
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.csprojAssemblyReference.cache
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.AssemblyInfoInputs.cache
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.AssemblyInfo.cs
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.csproj.CoreCompileInputs.cache
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.dll
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\ref\Exercise5.dll
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.pdb
+C:\Users\yao\source\repos\Lab2\Exercise5\obj\Debug\net5.0\Exercise5.genruntimeconfig.cache
