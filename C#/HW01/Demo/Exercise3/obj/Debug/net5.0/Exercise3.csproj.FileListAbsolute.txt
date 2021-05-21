@@ -1,0 +1,16 @@
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.exe
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.deps.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.runtimeconfig.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.runtimeconfig.dev.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\ref\Exercise3.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\bin\Debug\net5.0\Exercise3.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.csprojAssemblyReference.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.AssemblyInfoInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.AssemblyInfo.cs
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.csproj.CoreCompileInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\ref\Exercise3.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise3\obj\Debug\net5.0\Exercise3.genruntimeconfig.cache

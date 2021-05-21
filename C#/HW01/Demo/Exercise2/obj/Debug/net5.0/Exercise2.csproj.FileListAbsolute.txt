@@ -1,0 +1,16 @@
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.exe
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.deps.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.runtimeconfig.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.runtimeconfig.dev.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\ref\Exercise2.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\bin\Debug\net5.0\Exercise2.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.csprojAssemblyReference.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.AssemblyInfoInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.AssemblyInfo.cs
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.csproj.CoreCompileInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\ref\Exercise2.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\C#HW01\Demo\Exercise2\obj\Debug\net5.0\Exercise2.genruntimeconfig.cache
