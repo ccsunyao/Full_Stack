@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj": {}
+    "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\HW\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj": {
+    "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\HW\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj",
+        "projectUniqueName": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\HW\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj",
         "projectName": "Exercise3",
-        "projectPath": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj",
+        "projectPath": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\HW\\C#HW03\\Lab3\\Exercise3\\Exercise3.csproj",
         "packagesPath": "C:\\Users\\yao\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\C#HW03\\Lab3\\Exercise3\\obj\\",
+        "outputPath": "\\\\Mac\\AllFiles\\Volumes\\Career\\06-Antra\\C#\\HW\\C#HW03\\Lab3\\Exercise3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yao\\AppData\\Roaming\\NuGet\\NuGet.Config",
