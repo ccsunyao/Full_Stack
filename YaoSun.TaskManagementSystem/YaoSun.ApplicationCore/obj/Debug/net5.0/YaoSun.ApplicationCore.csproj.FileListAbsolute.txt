@@ -1,0 +1,15 @@
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\YaoSun.ApplicationCore.deps.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\YaoSun.ApplicationCore.runtimeconfig.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\YaoSun.ApplicationCore.runtimeconfig.dev.json
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\YaoSun.ApplicationCore.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\ref\YaoSun.ApplicationCore.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\bin\Debug\net5.0\YaoSun.ApplicationCore.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.csprojAssemblyReference.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.AssemblyInfoInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.AssemblyInfo.cs
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.csproj.CoreCompileInputs.cache
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\ref\YaoSun.ApplicationCore.dll
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.pdb
+\\Mac\AllFiles\Volumes\Career\06-Antra\YaoSun.TaskManagementSystem\YaoSun.ApplicationCore\obj\Debug\net5.0\YaoSun.ApplicationCore.genruntimeconfig.cache
