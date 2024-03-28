@@ -1,5 +1,0 @@
-\\Mac\AllFiles\Volumes\Career\06-Antra\C#\C#HW03\Lab3\Lab3\obj\Debug\net5.0\Exercise1.csprojAssemblyReference.cache
-\\Mac\AllFiles\Volumes\Career\06-Antra\C#\C#HW03\Lab3\Lab3\obj\Debug\net5.0\Exercise1.GeneratedMSBuildEditorConfig.editorconfig
-\\Mac\AllFiles\Volumes\Career\06-Antra\C#\C#HW03\Lab3\Lab3\obj\Debug\net5.0\Exercise1.AssemblyInfoInputs.cache
-\\Mac\AllFiles\Volumes\Career\06-Antra\C#\C#HW03\Lab3\Lab3\obj\Debug\net5.0\Exercise1.AssemblyInfo.cs
-\\Mac\AllFiles\Volumes\Career\06-Antra\C#\C#HW03\Lab3\Lab3\obj\Debug\net5.0\Exercise1.csproj.CoreCompileInputs.cache
